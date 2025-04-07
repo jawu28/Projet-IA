@@ -1,0 +1,24 @@
+{"time":"2025-04-07T21:55:40.0002322+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"c:\\Users\\USER\\Desktop\\Projet-IA\\Projet-IA\\wandb\\run-20250407_215539-rlvjfm9o\\logs\\debug-core.log"}
+{"time":"2025-04-07T21:55:45.5816013+01:00","level":"INFO","msg":"created new stream","id":"rlvjfm9o"}
+{"time":"2025-04-07T21:55:45.5816013+01:00","level":"INFO","msg":"stream: started","id":"rlvjfm9o"}
+{"time":"2025-04-07T21:55:45.5816013+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"rlvjfm9o"}
+{"time":"2025-04-07T21:55:45.5816013+01:00","level":"INFO","msg":"handler: started","stream_id":"rlvjfm9o"}
+{"time":"2025-04-07T21:55:45.5816013+01:00","level":"INFO","msg":"sender: started","stream_id":"rlvjfm9o"}
+{"time":"2025-04-07T21:55:45.8758725+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-07T21:57:26.0601616+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-07T21:57:27.1205283+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-07T21:57:30.9174986+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-07T21:57:31.3889472+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-07T21:57:34.8840938+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-07T21:57:34.9910305+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-07T21:57:36.0442797+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-07T21:57:36.2811438+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-07T22:16:31.3354523+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-07T22:16:31.3354523+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-07T22:16:32.3677244+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4079189,"progress":"36.7KB/36.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4079189,"progress":"975B/975B"},{"desc":"uploading config.yaml","runtime_seconds":0.0721329,"progress":"1.7KB/1.7KB"}],"total_operations":3}}
+{"time":"2025-04-07T22:16:32.5651345+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-07T22:16:33.1698236+01:00","level":"INFO","msg":"stream: closing","id":"rlvjfm9o"}
+{"time":"2025-04-07T22:16:33.1698236+01:00","level":"INFO","msg":"handler: closed","stream_id":"rlvjfm9o"}
+{"time":"2025-04-07T22:16:33.1698236+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rlvjfm9o"}
+{"time":"2025-04-07T22:16:33.1698236+01:00","level":"INFO","msg":"sender: closed","stream_id":"rlvjfm9o"}
+{"time":"2025-04-07T22:16:33.1698236+01:00","level":"INFO","msg":"stream: closed","id":"rlvjfm9o"}
