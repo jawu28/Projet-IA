@@ -7,7 +7,10 @@
 - Prétraitement des données
 - Approche de modélisation
 - Choix des modèles
-- Stratégie d'évaluation
+- Stratégie d'évaluation et optimistisation
+- Gestion des expériences avec WandB
+- Déploiement via API Flask
+- Conteneurisation avec Docker
 
 ## Modèles et Hyperparamètres
 ### Modèles Testés
