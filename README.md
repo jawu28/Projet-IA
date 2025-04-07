@@ -32,7 +32,7 @@ Une recherche exhaustive des hyperparamètres a été effectuée sur le modèle 
   
 ### 4. Suivi des expériences avec Weights & Biases (WandB)
 
-Le suivi des expériences a été réalisé avec [Weights & Biases]([https://wandb.ai](https://wandb.ai/lethyciachaho-ecolec-entrale/UR3-Cobot-Protective-Stops/runs/2b2svfal?nw=nwuserlethyciachaho)), un outil de monitoring des modèles de machine learning. Cela a permis de :
+Le suivi des expériences a été réalisé avec le compte de l'une d'entre nous, sur [Weights & Biases](https://wandb.ai/lethyciachaho-ecolec-entrale/UR3-Cobot-Protective-Stops/runs/2b2svfal?nw=nwuserlethyciachaho)  un outil de monitoring des modèles de machine learning. Cela a permis de : 
 
 - Visualiser l’évolution de la perte et de la précision en temps réel.
 - Comparer les performances selon différents hyperparamètres.
