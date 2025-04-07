@@ -29,8 +29,16 @@ Une recherche exhaustive des hyperparamètres a été effectuée sur le modèle 
 - Nombre de neurones dans les couches denses
 - Taux de dropout
 - Taux d'apprentissage
+  
+### 4. Suivi des expériences avec Weights & Biases (WandB)
 
-### 4. Évaluation des modèles
+Le suivi des expériences a été réalisé avec [Weights & Biases]([https://wandb.ai](https://wandb.ai/lethyciachaho-ecolec-entrale/UR3-Cobot-Protective-Stops/runs/2b2svfal?nw=nwuserlethyciachaho)), un outil de monitoring des modèles de machine learning. Cela a permis de :
+
+- Visualiser l’évolution de la perte et de la précision en temps réel.
+- Comparer les performances selon différents hyperparamètres.
+- Sauvegarder les meilleurs modèles automatiquement (early stopping).
+
+### 5. Évaluation des modèles
 Les modèles ont été évalués selon plusieurs métriques :
 - Accuracy
 - Precision
@@ -38,31 +46,31 @@ Les modèles ont été évalués selon plusieurs métriques :
 - F1-score
 - Courbe ROC et AUC
 
-### 5. Optimisation des hyperparametres
+### 6. Optimisation des hyperparametres
 Plusieurs modèles temporaires ont été créés pour tester différentes configurations, puis un modèle final avec les meilleurs paramètres a été retenu. Le but est de trouver la meilleure configuration avant d'implémenter l'API Flask.
 
-### 6. Implémentation de l'API
+### 7. Implémentation de l'API
 Une API REST a été développée avec Flask pour déployer le modèle :
 - Endpoint `/predict` pour prédire à partir d'une séquence unique
 - Endpoint `/predict_sequence` pour analyser des séquences multiples
 - Endpoint `/health` pour le monitoring de l'API
 
-### 6. Conteneurisation
+### 8. Conteneurisation
 L'application a été conteneurisée avec Docker pour faciliter son déploiement et assurer sa portabilité.
 
 ## Comparaison des modèles
 
 | Modèle               | Accuracy | Precision | Recall | F1-score |
 |----------------------|----------|-----------|--------|----------|
-| LSTM                 | x.xx     | x.xx      | x.xx   | x.xx     |
-| Modèle finaloptimisé | x.xx     | x.xx      | x.xx   | x.xx     |
+| LSTM                 | 0.9626   | 0.5294    | 0.3158 |0.3956    |
+| Modèle finaloptimisé | 0.9694   | 0.7500    | 	0.3158| 0.4444   |
 
 ## Meilleurs hyperparamètres trouvés
 
-- **LSTM units** : xxx
-- **Dense units** : xxx
-- **Dropout rate** : x.xx
-- **Learning rate** : x.xxx
+	- **LSTM units** : 64
+- **batch_size**: 32.0
+- **Dropout rate** : 0.2
+- **Learning rate** : 0.01
 
 
 ## Installation et Utilisation
