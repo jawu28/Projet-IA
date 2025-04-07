@@ -1,0 +1,20 @@
+{"time":"2025-04-07T11:12:18.3068907+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"c:\\Users\\USER\\Desktop\\Projet-IA\\Projet-IA\\wandb\\run-20250407_111217-tz464e5b\\logs\\debug-core.log"}
+{"time":"2025-04-07T11:12:23.1973366+01:00","level":"INFO","msg":"created new stream","id":"tz464e5b"}
+{"time":"2025-04-07T11:12:23.1976886+01:00","level":"INFO","msg":"stream: started","id":"tz464e5b"}
+{"time":"2025-04-07T11:12:23.2002791+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"tz464e5b"}
+{"time":"2025-04-07T11:12:23.2013933+01:00","level":"INFO","msg":"handler: started","stream_id":"tz464e5b"}
+{"time":"2025-04-07T11:12:23.2032363+01:00","level":"INFO","msg":"sender: started","stream_id":"tz464e5b"}
+{"time":"2025-04-07T11:12:23.4741734+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-07T11:12:26.3247523+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-07T11:21:53.0814208+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-07T11:21:53.3907487+01:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-07T11:22:30.8283944+01:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-07T11:22:30.8633841+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-07T11:22:30.8645433+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-07T11:22:31.7826551+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-07T11:22:31.9147976+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":0.1321425}],"total_operations":1}}
+{"time":"2025-04-07T11:22:32.0528574+01:00","level":"INFO","msg":"stream: closing","id":"tz464e5b"}
+{"time":"2025-04-07T11:22:32.0528574+01:00","level":"INFO","msg":"handler: closed","stream_id":"tz464e5b"}
+{"time":"2025-04-07T11:22:32.0528574+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tz464e5b"}
+{"time":"2025-04-07T11:22:32.0528574+01:00","level":"INFO","msg":"sender: closed","stream_id":"tz464e5b"}
+{"time":"2025-04-07T11:22:32.0528574+01:00","level":"INFO","msg":"stream: closed","id":"tz464e5b"}
