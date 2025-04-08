@@ -51,6 +51,7 @@ Une API REST a été développée avec Flask pour déployer le modèle :
 - Endpoint `/predict` pour prédire à partir d'une séquence unique
 - Endpoint `/predict_sequence` pour analyser des séquences multiples
 - Endpoint `/health` pour le monitoring de l'API
+Cette API a été testée avec POSTMAN. 
 
 ### 7. Conteneurisation
 L'application a été conteneurisée avec Docker pour faciliter son déploiement et assurer sa portabilité.
@@ -77,14 +78,24 @@ L'application a été conteneurisée avec Docker pour faciliter son déploiement
 - Docker (pour l'exécution conteneurisée)
 
 ### Requirements
-- flask==2.0.1
-- numpy==1.21.3
-- pandas==1.3.4
-- scikit-learn==1.0
-- tensorflow==2.8.0
+
+- numpy==1.23.5
+- pandas==1.4.2
+- scipy==1.9.3
+- python-dateutil==2.8.2
+- datetime==4.0.1
 - joblib==1.1.0
+- requests==2.26.0
+- scikit-learn==1.0.2
 - xgboost==1.5.0
+- imbalanced-learn==0.8.1
+- tensorflow==2.10.0
+- matplotlib==3.5.2
+- seaborn==0.11.2
+- flask==2.0.1
 - gunicorn==20.1.0
+- pyngrok==5.1.0
+
 ### Installation directe
 1. Cloner le dépôt
 ```
