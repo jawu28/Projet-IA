@@ -19,18 +19,9 @@ Les données utilisées proviennent du dataset UR3 CobotOps, disponible sur le U
 - Création de séquences temporelles de taille 10 pour l'entraînement des modèles
 
 ### 2. Développement et entraînement des modèles
-Plusieurs modèles ont été développés et comparés :
-- **Modèles Machine Learning** : Random Forest, XGBoost
-- **Modèles Deep Learning** : LSTM, Bidirectional LSTM, CNN-LSTM
+Un modele LSTM avec 10 epoques et un batch size de 32 a ete teste, avec GPU car CPU pas assez.
 
-### 3. Optimisation des hyperparamètres
-Une recherche exhaustive des hyperparamètres a été effectuée sur le modèle le plus performant, en testant différentes configurations :
-- Nombre d'unités LSTM
-- Nombre de neurones dans les couches denses
-- Taux de dropout
-- Taux d'apprentissage
-  
-### 4. Suivi des expériences avec Weights & Biases (WandB)
+### 3. Suivi des expériences avec Weights & Biases (WandB)
 
 Le suivi des expériences a été réalisé avec le compte de l'une d'entre nous, sur [Weights & Biases](https://wandb.ai/lethyciachaho-ecolec-entrale/UR3-Cobot-Protective-Stops/runs/2b2svfal?nw=nwuserlethyciachaho)  un outil de monitoring des modèles de machine learning. Cela a permis de : 
 
@@ -38,24 +29,30 @@ Le suivi des expériences a été réalisé avec le compte de l'une d'entre nous
 - Comparer les performances selon différents hyperparamètres.
 - Sauvegarder les meilleurs modèles automatiquement (early stopping).
 
-### 5. Évaluation des modèles
+### 4. Évaluation des modèles
 Les modèles ont été évalués selon plusieurs métriques :
 - Accuracy
 - Precision
 - Recall
 - F1-score
-- Courbe ROC et AUC
 
-### 6. Optimisation des hyperparametres
+
+### 5. Optimisation des hyperparametres
 Plusieurs modèles temporaires ont été créés pour tester différentes configurations, puis un modèle final avec les meilleurs paramètres a été retenu. Le but est de trouver la meilleure configuration avant d'implémenter l'API Flask.
+Une recherche exhaustive des hyperparamètres a été effectuée sur le modèle le plus performant, en testant différentes configurations :
+- Nombre d'unités LSTM
+- Nombre de neurones dans les couches denses
+- Taux de dropout
+- Taux d'apprentissage
+  
 
-### 7. Implémentation de l'API
+### 6. Implémentation de l'API
 Une API REST a été développée avec Flask pour déployer le modèle :
 - Endpoint `/predict` pour prédire à partir d'une séquence unique
 - Endpoint `/predict_sequence` pour analyser des séquences multiples
 - Endpoint `/health` pour le monitoring de l'API
 
-### 8. Conteneurisation
+### 7. Conteneurisation
 L'application a été conteneurisée avec Docker pour faciliter son déploiement et assurer sa portabilité.
 
 ## Comparaison des modèles
@@ -67,7 +64,7 @@ L'application a été conteneurisée avec Docker pour faciliter son déploiement
 
 ## Meilleurs hyperparamètres trouvés
 
-	- **LSTM units** : 64
+- **LSTM units** : 64
 - **batch_size**: 32.0
 - **Dropout rate** : 0.2
 - **Learning rate** : 0.01

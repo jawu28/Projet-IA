@@ -1,5 +1,0 @@
-Epoch 1/10
-Epoch 1/10
-c:\Users\USER\anaconda3\Lib\site-packages\keras\src\layers\rnn\rnn.py:200: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
-  super().__init__(**kwargs)
-wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
