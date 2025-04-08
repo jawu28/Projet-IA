@@ -1,0 +1,24 @@
+{"time":"2025-04-08T03:22:09.7445274+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"c:\\Users\\jawus\\Desktop\\2024-2025\\S8_2\\Machine learning & App en I4.0\\Projet\\Projet-IA\\wandb\\run-20250408_032209-vqh54z76\\logs\\debug-core.log"}
+{"time":"2025-04-08T03:22:10.4224783+02:00","level":"INFO","msg":"created new stream","id":"vqh54z76"}
+{"time":"2025-04-08T03:22:10.4229945+02:00","level":"INFO","msg":"handler: started","stream_id":"vqh54z76"}
+{"time":"2025-04-08T03:22:10.4229945+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"vqh54z76"}
+{"time":"2025-04-08T03:22:10.4229945+02:00","level":"INFO","msg":"stream: started","id":"vqh54z76"}
+{"time":"2025-04-08T03:22:10.4229945+02:00","level":"INFO","msg":"sender: started","stream_id":"vqh54z76"}
+{"time":"2025-04-08T03:22:10.6141485+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-08T03:22:27.6954405+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-08T03:22:27.7021186+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-08T03:22:27.9880209+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-08T03:22:27.9957572+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-08T03:22:29.032213+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-08T03:22:29.0406979+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-08T03:22:29.2412318+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-08T03:22:29.2569966+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-08T03:26:33.5599144+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-08T03:26:33.5604272+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-08T03:26:34.3866281+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-08T03:26:34.5678379+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary, console lines 400-435","runtime_seconds":0.1812098}],"total_operations":1}}
+{"time":"2025-04-08T03:26:34.6900474+02:00","level":"INFO","msg":"stream: closing","id":"vqh54z76"}
+{"time":"2025-04-08T03:26:34.6900474+02:00","level":"INFO","msg":"handler: closed","stream_id":"vqh54z76"}
+{"time":"2025-04-08T03:26:34.6900474+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vqh54z76"}
+{"time":"2025-04-08T03:26:34.6900474+02:00","level":"INFO","msg":"sender: closed","stream_id":"vqh54z76"}
+{"time":"2025-04-08T03:26:34.6900474+02:00","level":"INFO","msg":"stream: closed","id":"vqh54z76"}

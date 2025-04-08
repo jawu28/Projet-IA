@@ -1,0 +1,24 @@
+{"time":"2025-04-08T02:42:31.2512479+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"c:\\Users\\jawus\\Desktop\\2024-2025\\S8_2\\Machine learning & App en I4.0\\Projet\\Projet-IA\\wandb\\run-20250408_024231-mfsc9rc3\\logs\\debug-core.log"}
+{"time":"2025-04-08T02:42:31.8966021+02:00","level":"INFO","msg":"created new stream","id":"mfsc9rc3"}
+{"time":"2025-04-08T02:42:31.8966021+02:00","level":"INFO","msg":"stream: started","id":"mfsc9rc3"}
+{"time":"2025-04-08T02:42:31.8971195+02:00","level":"INFO","msg":"handler: started","stream_id":"mfsc9rc3"}
+{"time":"2025-04-08T02:42:31.8971195+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"mfsc9rc3"}
+{"time":"2025-04-08T02:42:31.8966021+02:00","level":"INFO","msg":"sender: started","stream_id":"mfsc9rc3"}
+{"time":"2025-04-08T02:42:32.1391539+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-08T02:42:52.3404774+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-08T02:42:52.3485926+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-08T02:42:52.5982257+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-08T02:42:52.6077598+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-08T02:42:53.8821924+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-08T02:42:53.8897384+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-08T02:42:54.1674003+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-08T02:42:54.1882613+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-08T02:47:41.5875975+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-08T02:47:41.5881312+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-08T02:47:42.3569707+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-08T02:47:42.5923051+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary, console lines 382-411","runtime_seconds":0.2353344}],"total_operations":1}}
+{"time":"2025-04-08T02:47:42.6518422+02:00","level":"INFO","msg":"stream: closing","id":"mfsc9rc3"}
+{"time":"2025-04-08T02:47:42.6518422+02:00","level":"INFO","msg":"handler: closed","stream_id":"mfsc9rc3"}
+{"time":"2025-04-08T02:47:42.6518422+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mfsc9rc3"}
+{"time":"2025-04-08T02:47:42.6518422+02:00","level":"INFO","msg":"sender: closed","stream_id":"mfsc9rc3"}
+{"time":"2025-04-08T02:47:42.6518422+02:00","level":"INFO","msg":"stream: closed","id":"mfsc9rc3"}

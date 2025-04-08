@@ -1,0 +1,37 @@
+Epoch 1/10
+118/118 ━━━━━━━━━━━━━━━━━━━━ 3s 11ms/step - accuracy: 0.9335 - loss: 0.2129 - val_accuracy: 0.9612 - val_loss: 0.1283
+Epoch 2/10
+118/118 ━━━━━━━━━━━━━━━━━━━━ 1s 8ms/step - accuracy: 0.9608 - loss: 0.1236 - val_accuracy: 0.9612 - val_loss: 0.1015
+Epoch 3/10
+118/118 ━━━━━━━━━━━━━━━━━━━━ 1s 9ms/step - accuracy: 0.9623 - loss: 0.0961 - val_accuracy: 0.9592 - val_loss: 0.0941
+Epoch 4/10
+118/118 ━━━━━━━━━━━━━━━━━━━━ 1s 8ms/step - accuracy: 0.9614 - loss: 0.0917 - val_accuracy: 0.9612 - val_loss: 0.0855
+Epoch 5/10
+118/118 ━━━━━━━━━━━━━━━━━━━━ 1s 9ms/step - accuracy: 0.9661 - loss: 0.0801 - val_accuracy: 0.9626 - val_loss: 0.0901
+Epoch 6/10
+118/118 ━━━━━━━━━━━━━━━━━━━━ 1s 8ms/step - accuracy: 0.9765 - loss: 0.0606 - val_accuracy: 0.9619 - val_loss: 0.0959
+Epoch 7/10
+118/118 ━━━━━━━━━━━━━━━━━━━━ 1s 8ms/step - accuracy: 0.9779 - loss: 0.0556 - val_accuracy: 0.9680 - val_loss: 0.0834
+Epoch 8/10
+118/118 ━━━━━━━━━━━━━━━━━━━━ 1s 9ms/step - accuracy: 0.9807 - loss: 0.0508 - val_accuracy: 0.9598 - val_loss: 0.0885
+Epoch 9/10
+118/118 ━━━━━━━━━━━━━━━━━━━━ 1s 8ms/step - accuracy: 0.9826 - loss: 0.0441 - val_accuracy: 0.9632 - val_loss: 0.0955
+Epoch 10/10
+118/118 ━━━━━━━━━━━━━━━━━━━━ 1s 9ms/step - accuracy: 0.9873 - loss: 0.0345 - val_accuracy: 0.9537 - val_loss: 0.1030
+46/46 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - accuracy: 0.9652 - loss: 0.0836
+Test accuracy with optimized parameters: 0.9680
+Test loss with optimized parameters: 0.0834
+46/46 ━━━━━━━━━━━━━━━━━━━━ 1s 7ms/step
+
+Test accuracy with optimized parameters: 0.9680
+Precision (classe 1): 0.6923
+Recall (classe 1):    0.3158
+F1-score (classe 1):  0.4337
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+Modèle optimisé sauvegardé avec succès!
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 211ms/step
+
+Prédiction pour l'échantillon test:
+Classe prédite: 0 - Fonctionnement normal
+Probabilités: [0.00011267]

@@ -1,0 +1,39 @@
+Epoch 1/10
+184/184 ━━━━━━━━━━━━━━━━━━━━ 7s 13ms/step - accuracy: 0.9370 - loss: 0.1873 - val_accuracy: 0.9612 - val_loss: 0.1169
+Epoch 2/10
+184/184 ━━━━━━━━━━━━━━━━━━━━ 2s 11ms/step - accuracy: 0.9605 - loss: 0.1195 - val_accuracy: 0.9612 - val_loss: 0.1012
+Epoch 3/10
+184/184 ━━━━━━━━━━━━━━━━━━━━ 2s 11ms/step - accuracy: 0.9610 - loss: 0.1000 - val_accuracy: 0.9612 - val_loss: 0.0840
+Epoch 4/10
+184/184 ━━━━━━━━━━━━━━━━━━━━ 2s 12ms/step - accuracy: 0.9619 - loss: 0.0880 - val_accuracy: 0.9653 - val_loss: 0.0846
+Epoch 5/10
+184/184 ━━━━━━━━━━━━━━━━━━━━ 2s 12ms/step - accuracy: 0.9722 - loss: 0.0714 - val_accuracy: 0.9639 - val_loss: 0.0858
+Epoch 6/10
+184/184 ━━━━━━━━━━━━━━━━━━━━ 2s 13ms/step - accuracy: 0.9752 - loss: 0.0614 - val_accuracy: 0.9653 - val_loss: 0.0895
+Epoch 7/10
+184/184 ━━━━━━━━━━━━━━━━━━━━ 3s 14ms/step - accuracy: 0.9756 - loss: 0.0622 - val_accuracy: 0.9626 - val_loss: 0.0923
+Epoch 8/10
+184/184 ━━━━━━━━━━━━━━━━━━━━ 2s 13ms/step - accuracy: 0.9823 - loss: 0.0454 - val_accuracy: 0.9666 - val_loss: 0.0965
+46/46 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - accuracy: 0.9604 - loss: 0.0828
+Test accuracy with optimized parameters: 0.9612
+Test loss with optimized parameters: 0.0840
+46/46 ━━━━━━━━━━━━━━━━━━━━ 1s 12ms/step
+C:\Users\jawus\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\jawus\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\jawus\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\metrics\_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+Test accuracy with optimized parameters: 0.9612
+Precision (classe 1): 0.0000
+Recall (classe 1):    0.0000
+F1-score (classe 1):  0.0000
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+Modèle optimisé sauvegardé avec succès!
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 445ms/step
+
+Prédiction pour l'échantillon test:
+Classe prédite: 0 - Fonctionnement normal
+Probabilités: [0.00063191]

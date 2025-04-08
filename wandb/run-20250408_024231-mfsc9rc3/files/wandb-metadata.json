@@ -1,0 +1,31 @@
+{
+  "os": "Windows-11-10.0.26100-SP0",
+  "python": "CPython 3.12.9",
+  "startedAt": "2025-04-08T00:42:31.248097Z",
+  "program": "c:\\Users\\jawus\\Desktop\\2024-2025\\S8_2\\Machine learning & App en I4.0\\Projet\\Projet-IA\\notebook.ipynb",
+  "codePath": "notebook.ipynb",
+  "git": {
+    "remote": "https://github.com/jawu28/Projet-IA.git",
+    "commit": "cc19a129dc066062e235b3a3d6b97ba8f2901638"
+  },
+  "email": "jawusounouvou@gmail.com",
+  "root": "c:\\Users\\jawus\\Desktop\\2024-2025\\S8_2\\Machine learning & App en I4.0\\Projet\\Projet-IA",
+  "host": "DESKTOP-B5F4CL2",
+  "executable": "C:\\Users\\jawus\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe",
+  "codePathLocal": "notebook.ipynb",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "405716807680",
+      "used": "229395718144"
+    }
+  },
+  "memory": {
+    "total": "16856477696"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

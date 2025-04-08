@@ -1,0 +1,48 @@
+2025-04-08 03:22:09,708 INFO    MainThread:26728 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-08 03:22:09,708 INFO    MainThread:26728 [wandb_setup.py:_flush():67] Configure stats pid to 26728
+2025-04-08 03:22:09,708 INFO    MainThread:26728 [wandb_setup.py:_flush():67] Loading settings from C:\Users\jawus\.config\wandb\settings
+2025-04-08 03:22:09,708 INFO    MainThread:26728 [wandb_setup.py:_flush():67] Loading settings from c:\Users\jawus\Desktop\2024-2025\S8_2\Machine learning & App en I4.0\Projet\Projet-IA\wandb\settings
+2025-04-08 03:22:09,708 INFO    MainThread:26728 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-08 03:22:09,708 INFO    MainThread:26728 [wandb_init.py:setup_run_log_directory():662] Logging user logs to c:\Users\jawus\Desktop\2024-2025\S8_2\Machine learning & App en I4.0\Projet\Projet-IA\wandb\run-20250408_032209-vqh54z76\logs\debug.log
+2025-04-08 03:22:09,710 INFO    MainThread:26728 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to c:\Users\jawus\Desktop\2024-2025\S8_2\Machine learning & App en I4.0\Projet\Projet-IA\wandb\run-20250408_032209-vqh54z76\logs\debug-internal.log
+2025-04-08 03:22:09,710 INFO    MainThread:26728 [wandb_init.py:monkeypatch_ipython():581] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000102934437A0>
+2025-04-08 03:22:09,710 INFO    MainThread:26728 [wandb_init.py:init():781] calling init triggers
+2025-04-08 03:22:09,710 INFO    MainThread:26728 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-04-08 03:22:09,710 INFO    MainThread:26728 [wandb_init.py:init():809] starting backend
+2025-04-08 03:22:09,710 INFO    MainThread:26728 [wandb_init.py:init():813] sending inform_init request
+2025-04-08 03:22:09,741 INFO    MainThread:26728 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-08 03:22:09,742 INFO    MainThread:26728 [wandb_init.py:init():823] backend started and connected
+2025-04-08 03:22:09,743 INFO    MainThread:26728 [wandb_run.py:_label_probe_notebook():1267] probe notebook
+2025-04-08 03:22:09,745 INFO    MainThread:26728 [wandb_run.py:_label_probe_notebook():1277] Unable to probe notebook: 'charmap' codec can't decode byte 0x8f in position 384932: character maps to <undefined>
+2025-04-08 03:22:09,746 INFO    MainThread:26728 [wandb_init.py:init():915] updated telemetry
+2025-04-08 03:22:09,784 INFO    MainThread:26728 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-08 03:22:10,610 INFO    MainThread:26728 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-08 03:22:10,778 INFO    MainThread:26728 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-08 03:22:10,779 INFO    MainThread:26728 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-08 03:22:10,779 INFO    MainThread:26728 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-08 03:22:10,779 INFO    MainThread:26728 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-08 03:22:10,782 INFO    MainThread:26728 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-08 03:22:10,782 INFO    MainThread:26728 [wandb_run.py:_config_callback():1327] config_cb None None {'model_type': 'LSTM', 'lstm_layers': 2, 'lstm_units': 50, 'dropout_rate': 0.2, 'optimizer': 'adam', 'batch_size': 32, 'epochs': 10, 'sequence_length': 10, 'features': 11}
+2025-04-08 03:22:27,694 INFO    MainThread:26728 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-08 03:22:27,694 INFO    MainThread:26728 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-08 03:22:27,701 INFO    MainThread:26728 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-08 03:22:27,986 INFO    MainThread:26728 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-08 03:22:27,987 INFO    MainThread:26728 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-08 03:22:27,993 INFO    MainThread:26728 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-08 03:22:29,031 INFO    MainThread:26728 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-08 03:22:29,031 INFO    MainThread:26728 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-08 03:22:29,035 INFO    MainThread:26728 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-08 03:22:29,240 INFO    MainThread:26728 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-08 03:22:29,240 INFO    MainThread:26728 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
+2025-04-08 03:22:29,255 INFO    MainThread:26728 [wandb_init.py:_resume_backend():551] [no run ID] resuming backend
+2025-04-08 03:26:33,557 INFO    MainThread:26728 [wandb_run.py:_finish():2189] finishing run jawusounouvou-ecole-centrale-casablanca/UR3-Cobot-Protective-Stops/vqh54z76
+2025-04-08 03:26:33,559 INFO    MainThread:26728 [jupyter.py:save_history():460] not saving jupyter history
+2025-04-08 03:26:33,559 INFO    MainThread:26728 [jupyter.py:save_ipynb():384] not saving jupyter notebook
+2025-04-08 03:26:33,559 INFO    MainThread:26728 [wandb_init.py:_jupyter_teardown():563] cleaning up jupyter logic
+2025-04-08 03:26:33,559 INFO    MainThread:26728 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 0
+2025-04-08 03:26:33,559 INFO    MainThread:26728 [wandb_run.py:_restore():2401] restore
+2025-04-08 03:26:33,559 INFO    MainThread:26728 [wandb_run.py:_restore():2407] restore done
+2025-04-08 03:26:34,685 INFO    MainThread:26728 [wandb_run.py:_footer_history_summary_info():4064] rendering history
+2025-04-08 03:26:34,685 INFO    MainThread:26728 [wandb_run.py:_footer_history_summary_info():4096] rendering summary
+2025-04-08 03:26:34,686 INFO    MainThread:26728 [wandb_run.py:_footer_sync_info():4025] logging synced files
